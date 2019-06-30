@@ -1,0 +1,71 @@
+body {
+  background-color: #e9ebee;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+  color: #1d2129;
+}
+p {
+  color: #1d2129;
+}
+
+.card {
+    display: inline-block;
+    background-color: #fff;
+    border-bottom: red;
+    font-weight: bold;
+    padding: 8px 6px;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    width: 80%;
+    text-align: left;
+}
+.card_heading {
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.final_premise {
+        border-bottom: solid 1px #e5e5e5;
+
+}
+
+.conclusion_premise {
+        border-top: solid 1px #e5e5e5;
+
+}
+
+.premise_small {
+    width: 80%;
+}
+
+.premise_id {
+    width: 1000px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.link_text {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.spacer {
+    height: 10px
+}
+
+.Page_header {
+    text-align: center;
+}
+
+.like_button {
+    background: none;
+    width: 100%;
+    padding: none;
+    height: 100%;
+    border: none;
+}
+
+.like_button:hover {
+    background: #e9ebee;
+}
